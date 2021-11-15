@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L'équipe Security Response{% endblock %}
+
+{% block body %}
+
+<main>
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row">
+            <div class="d-flex mt-4 text-center mx-auto">
+        
+                <section class="text-center container mt-4">
+                    <div class="d-flex">
+                        <div class="mx-auto">
+                            <h1 class="fw-bold">L'équipe Security Response</h1>  
+
+                        <div class="container px-4 py-4">    
+                            <div class="d-flex flex-column justify-content-center flex-md-row mt-5 h-100 p-5 pb-3 text-white text-shadow-1">
+
+                                <div class="me-3">                                                   
+                                    <img src="{{ asset("img/Guerric.svg") }}" alt"image de Guerric">
+                                        <h2 class="team">Guerric</h2>
+                                            <p class="team-status">Product Owner</p>
+                                </div>
+                                <div class="me-3">                                                   
+                                    <img src="{{ asset("img/Mathieu.svg") }}" alt"image de Mathieu">
+                                        <h2 class="team">Mathieu</h2>
+                                            <p class="team-status">Référent technique et Git master</p>
+                                </div>
+                                <div class="me-3">                                                   
+                                    <img src="{{ asset("img/Olivier.svg") }}" alt"image de Olivier">
+                                        <h2 class="team">Olivier</h2>
+                                            <p class="team-status">Scrum Master</p>
+                                </div>
+                                <div class="me-3">                                                   
+                                    <img src="{{ asset("img/Sylvain.svg") }}" alt"image de Sylvain">
+                                        <h2 class="team">Sylvain</h2>
+                                            <p class="team-status">Lead dev back</p>
+                                </div>
+                                <div class="me-3">                                                   
+                                    <img src="{{ asset("img/Cyril.svg") }}" alt"image de Cyril">
+                                        <h2 class="team">Cyril</h2>
+                                            <p class="team-status">Lead dev front</p>
+                                </div>                                
+                            </div>                            
+                        </div>  
+                        
+                    </div>                  
+                </section>
+            </div>
+        </div>
+    </div>
+</main>     
+{% endblock %}
